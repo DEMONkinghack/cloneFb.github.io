@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+      html{
+        scroll-behavior: smooth
+      }
+        body{
+            background-color: rgb(216, 232, 238);
+            height:6600px;
+            font-size: 30px;  font-family: "Jersey 15", sans-serif;
+
+             
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Jersey+15&family=Roboto:ital,wght@0,100..900;1,100..900&family=RocknRoll+One&display=swap');
+        @media (max-width: 600px) {
+            th, td {
+                font-size: 12px;
+                padding: 8px;
+            }
+            input, button {
+                font-size: 14px;
+                padding: 10px;
+            }
+            button {
+                padding: 12px;
+            }
+            img{
+                width: 30px;
+            }
+            h1{
+             font-size: 20px;
+            }
+            .head{
+                display:flex;
+                align-items: center;
+            }
+            .text{margin:auto;
+                justify-content: center;
+                align-items: center;
+              display: flex;
+              margin-left: 180px;
+      }
+      .back2{
+     
+    border: 1px solid gray;
+    border-radius: 50%;
+  
+    width: 20px;
+    
+        
+      }
+      .back{
+       display: flex;
+     gap: 10px;
+     align-items: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-family:mono;
+    
+      }
+      .p p{
+        font-family: "Jersey 15", sans-serif;
+        border-bottom: 2px solid blue;
+        font-size:20px;
+        width: 90px;
+      }
+      .p h1{
+        font-size: 35px;
+        
+        color: rgb(55, 52, 52);
+        
+      }
+      .p h2{
+        color: gray;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 15px;
+      }
+      .pic img{
+        width:500px;
+        border-radius: 10px;
+        
+      }
+      hr{
+        width: 500px;
+      }
+      .about{
+        margin-top: 50px;
+        margin-left:10px;
+        background-color: aliceblue;
+        padding: 0px 8px 8px 8px;
+        width: 450px;
+        
+          
+       
+
+      }
+      .about h1{
+     font-size: 40px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+      }
+    
+      .about hr{
+        width: 465px;
+        height: 5px;
+        margin-left: -8px;
+         background-color: blue;
+      
+      }
+      .text1{
+        margin-top: 50px;
+   width: 480px;
+       margin-left: 10px;
+      }
+      .text1 h1{
+        color: gray;
+        font-size: 30px;  font-family: "Jersey 15", sans-serif;
+      }
+      .scroll img{
+        width: 500px;
+        height:450px;
+        border-radius: 10px;
+      }
+    
+      .scroll2 img{
+        width: 500px;
+        height:450px;
+        border-radius: 10px;
+      }
+      .text4{
+      width: 480px;
+      }
+      .text5{
+        width: 480px;
+      }
+    .fulltext5{
+        display: flex; 
+         align-items: center;
+         justify-content: space-around;
+    }
+     .i i{
+        font-size: 40px;
+         margin: 0px 20px;
+     }
+     .text6 p{
+        color: gray;
+
+        font-size: 20px;
+        
+        
+     }
+     .text6 h1{
+        font-size: 40px;
+        border-bottom: 3px solid blue;
+        width: 100px;
+
+     }
+     .fulltext6{
+        display:flex;
+        align-items:center ;
+        
+        justify-content: space-between;
+    
+
+    
+     }
+    
+     .text6 p{
+        font-size:30px;
+    
+     }
+     .text6 h2{
+      font-size: 20px;
+     }
+     .logo img{
+        
+        width: 150px;
+      margin-top: 160px;
+        border-radius: 10px;
+       
+    
+     }
+     .footer img{
+        width: 100px;
+        
+     }
+     .footer{
+        text-align: center;
+        font-size: 60px;
+       
+     }.con{
+        display: flex;
+        justify-content: space-around;
+        font-size: 50px;
+        margin-left: 70px;
+     }
+     .connect p{
+        font-size: 20px;
+    color: rgb(87, 84, 84) ;
+     }
+     .icon svg{
+    width: 40px;
+     }
+     .icon{
+      display: flex;
+      margin-left: 90px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      justify-content: space-between;
+     }
+     .icon h1{
+      font-size: 30px;
+      color: rgb(79, 78, 78);
+     }.last{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     font-size: 20px;
+     margin-left: 40px;
+      
+     
+     }
+     .Login{
+      margin-left: 40px;
+     }
+     .Login h1{
+      font-size: 50px;
+      margin-left: 50px;
+      color: rgba(0, 0, 155, 0.598);
+      text-align: center;
+     }
+     .Login button{
+      width: 350px;
+      background-color: rgb(2, 43, 113);
+      color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       border-radius: 5px;
+       margin-top: 10px;
+     }
+     form{
+       border: 1px solid rgb(170, 170, 170);
+       border-radius: 10px;
+      width: 400px;
+       text-align: center;
+       box-shadow: 0px 0px 10px gray;
+       
+     }
+     form input{
+      width: 330px;
+      border-radius: 5px;
+      margin-top: 10px;
+      border: 1px solid  gray;
+     }
+     form p{
+      color: rgb(2, 80, 148);
+      text-align: center;
+      font-size:15px;
+     }
+     h6{
+      margin-top: -10px;
+      text-align: center;
+      color:gray;
+      margin-left: 100px;
+      font-size:10px;
+     }
+    
+      .l button{
+        width: 100px;
+      margin-left:110px ;
+      border-radius: 10px;
+      color: white;
+      background-color: rgb(0, 73, 151);
+     }
+     a{
+      color: white;
+      text-decoration: none;
+     }
+   
+    }
+    
+    
+        
+        
+    </style>
+</head>
+<body>
+     <div class="head">
+        <div><i class="fa-solid fa-bars"></i></div>
+    <div class="text">
+        <div><img src="img/logo.png" alt=""></div>
+         <div><h1>Meta</h1></div>
+    </div>
+    <div class="l">
+      <button><a href="#LOG">LOG IN</a></button>
+    </div>
+     </div>
+     <hr>
+     <div class="back">
+     <div class="back2">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3" />
+          </svg>
+        </div>
+          <div>Back to Newroom</div>
+        </div> 
+
+        <div class="p"><p>Facebook</p>
+         <h1>Bringing The magic of Frinds Back to Facebook!</h1>
+            <h2>March 27,2025</h2></div>
+         <div class="pic">
+            <img src="https://about.fb.com/wp-content/uploads/2025/03/Profile-and-Friends-Tab-Update-for-FB_Header.jpg?w=1024" alt="">
+         </div>
+
+
+         <div class="Login" id="LOG">
+          <h1>FaceBook</h1>
+          <form  >
+            <p>log in to facebook</p>
+            <input type="text" value="" placeholder=" Email address or phone number">
+            <input type="Password" value="" placeholder="Password"> <br>
+            <button>LOG IN</button>
+              
+            <div class="title">
+                <p>Forgetten account ?.Sign up for Facebook</p>
+            </div>
+               
+          </form>
+        </div>
+
+
+
+         <div class="about"> 
+       <hr> 
+       
+            <h1>TakeAways</h1>
+            <p><li>We’re making it easier to connect with your friends in fun and simple ways on Facebook .</li></p>
+
+            <p><li>starting with an updated Friends tab.
+                The Friends tab on Facebook will now show content just from your Facebook friends, no recommended content.  
+              </li></p>
+              <p><li> 
+                This is the first of several experiences coming this year that will bring back the joy of what we first created on Facebook.</li></p>
+         </div>
+          <div class="text1">
+            <p>We’re introducing a new Facebook Friends tab that makes it easier to connect with your friends. </p>
+            <h1>Beginning to Bring Back “OG” Facebook Experiences</h1>
+            <p>Connecting with friends has been a part of Facebook since it launched. Over the years, Facebook evolved to meet changing needs and created best-in-class experiences across Groups, Video, Marketplace and more, but the magic of friends has fallen away. We’ll be adding several “OG” Facebook experiences throughout the year, beginning with the revamped Friends tab. </p>
+            <h1>A New Friends Tab</h1> 
+            <p>We want to make it easier for people to find their friends’ content on Facebook. So starting today in the United States and Canada, the new Friends <br> tab provides an experience made up entirely of content from your Facebook friends.
+
+                Formerly a place to view friend requests and People You May Know, the Friends tab will now show your friends’ stories, reels, posts, birthdays and friend requests. </p>
+        </div>
+        <div class="scroll">
+            <img src="https://about.fb.com/wp-content/uploads/2025/03/01_FriendsTabDemo.gif?resize=960%2C836" alt="">
+        </div>
+       <div class="text4">
+        <p>The Friends tab is available initially through the navigation bar on your home Feed and can always be accessed in the Bookmarks section of the app. 
+
+            To pin the Friends tab from there:
+           
+            </p>
+            <p>1.Click your profile picture in the Home feed.  </p> 
+            <p>2.Click “Settings & Privacy,” “Settings” and then “Tab bar.”   </p> 
+            <p>3.Choose to customize the bar, then click “Friends” and pin the tab. </p>
+       </div>
+       <div class="scroll2">
+    <img src="https://about.fb.com/wp-content/uploads/2025/03/02_Pin-a-Tab.gif?resize=960%2C836" alt=""> 
+       </div>
+       
+       <div class="text5">
+        <p>Social media should feel social. In that spirit, we’ll be adding more fun, simple experiences to help you connect and share on Facebook throughout the year.</p>
+        <hr>
+        <div class="fulltext5">
+            <div>
+        <p> <span style="color: rgb(126, 124, 124);">Categories:</span> Facebook Product News <br>
+            <span style="color: rgb(126, 124, 124);">Tags:</span> Facebook</p>
+        </div>
+        <div class="i">
+            <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-x-twitter"></i>
+             
+           </div>
+        
+        
+        </div>
+            <hr>
+       </div>
+       
+
+       <div class="fulltext6">
+        <div class="text6">
+         <p>Related News</p>
+         <h1>Meta</h1>
+         <h2>l and Explore tabs that gather content from across Facebook to help you find what you’re interested in, plus we’re introducing an updated Video tab, AI integrations and more. <br><span style="color: gray;">October 4, 2024</span></h2>
+        </div> 
+        <div class="logo">
+           <img src="https://tse2.mm.bing.net/th?id=OIP.hrACUKEs2E49ZREzDUyCfQAAAA&pid=Api&P=0&h=220" alt="">
+       </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <img src="img/logo.png" alt=""><span>Meta</span>
+    </div>
+    <div class="connect">
+        <p>Follow Us :</p>
+          <div class="con">
+            <i class="fa-brands fa-square-facebook"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-square-youtube"></i><i class="fa-brands fa-square-twitter"></i><i class="fa-brands fa-invision"></i>
+          </div>
+    </div>
+    <div  class="fullicon" >
+        <div class="icon">
+        <h1>VirTual Reality </h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+    </div>
+    <hr>
+        <div class="icon">
+        <h1>Smart glasses </h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+    </div>
+    <hr>
+        <div class="icon">
+        <h1>About Us </h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+    </div>
+    <hr>
+        <div class="icon">
+        <h1>Our  Communtity </h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+    </div>
+    <hr>
+        <div class="icon">
+        <h1>Our Actions</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+    </div>
+    <hr>
+    
+        <div class="icon">
+        <h1>Support</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+    </div>
+    <hr>
+    </div>
+    <div class="last">
+      <p>Communtity_Standard</p>  | <p>Data_Policy</p> </div> <div class="last"><p>Terms</p> |<p>Cookie_Policy</p>   <p>United_States(English) </p></div> 
+    <hr>
+     
+<h6>Create.@2025</h6>
+     
+    
+</body>
+</html>
